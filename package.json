@@ -1,0 +1,33 @@
+{
+  "name": "spun-app",
+  "version": "1.0.0",
+  "description": "Home of Spun and a view into current & upcoming projects",
+  "main": "index.js",
+  "author": "lssweatherhead",
+  "dependencies": {
+    "@types/isomorphic-fetch": "0.0.35",
+    "apollo-boost": "^0.1.20",
+    "gatsby": "^2.0.19",
+    "gatsby-source-graphql": "^2.0.6",
+    "isomorphic-fetch": "^2.2.1",
+    "react": "^16.6.0",
+    "react-apollo": "^2.2.4",
+    "react-dom": "^16.6.0"
+  },
+  "keywords": [
+    "gatsby",
+    "apollo",
+    "apollo-boost"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "start": "npm run develop",
+    "format": "prettier --write \"src/**/*.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "prettier": "^1.14.2"
+  }
+}
