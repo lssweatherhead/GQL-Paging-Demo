@@ -37465,7 +37465,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var client = new apollo_boost__WEBPACK_IMPORTED_MODULE_0__["default"]({
-  uri: 'https://graphql.org/swapi-graphql',
+  uri: 'https://api-euwest.graphcms.com/v1/cjumpzpoz199401erp05lzn3z/master?query=',
   fetch: isomorphic_fetch__WEBPACK_IMPORTED_MODULE_1___default.a
 });
 
